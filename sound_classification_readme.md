@@ -106,3 +106,4 @@ print(f"Predicted Sound: {label}, Confidence: {confidence:.3f}")
 - Supported audio formats: `.wav`, `.mp3`, `.m4a`  
 - YAMNet expects **mono 16kHz WAV**, but this module handles conversion automatically  
 - Confidence scores range from `0.0` to `1.0`
+- 
