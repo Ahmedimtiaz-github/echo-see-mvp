@@ -9,7 +9,8 @@ import numpy as np
 import librosa
 import soundfile as sf
 import csv
-from yamnet_model import yamnet_instance
+from models.yamnet_model import yamnet_instance
+
 
 def classify_sound(audio_path):
     yamnet = yamnet_instance.get_model()
