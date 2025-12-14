@@ -47,7 +47,7 @@ async def detect_sound(file: UploadFile = File(...)):
     with tempfile.NamedTemporaryFile(delete=False, suffix=".wav") as tmp:
         shutil.copyfileobj(file.file, tmp)
         audio_path = tmp.name
-
+        
     try:
         label, confidence = classify_sound(audio_path)
     except Exception as e:
