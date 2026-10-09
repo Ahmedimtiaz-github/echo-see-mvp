@@ -147,11 +147,11 @@ print(f"Predicted Sound: {label}, Confidence: {confidence:.3f}")
 
 ## 🛠️ Tech Stack
 
-- **Python** — Core language
-- **TensorFlow / TensorFlow Hub** — YAMNet model inference
-- **FastAPI** — REST API framework
-- **Librosa & SoundFile** — Audio loading and processing
-- **NumPy** — Numerical operations
+- **Python**  Core language
+- **TensorFlow / TensorFlow Hub** YAMNet model inference
+- **FastAPI** REST API framework
+- **Librosa & SoundFile**  Audio loading and processing
+- **NumPy**  Numerical operations
 
 ---
 
